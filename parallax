@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parallax</title>
+    <style type="text/css">
+                *{
+                    margin: 0px;
+                    padding: 0px;
+                }
+                 .parallax1{
+                     width: 100%;
+                     height: 350px;
+                     background-image:url(pimg1.jpg);
+                     background-size: 100% 100%;
+                     background-attachment: fixed;
+
+                 }
+                .parallax1 h1{
+                    position:relative;
+                    left: 700px;
+                    top: 100px;
+                    width: 110px;
+                    padding: 3px;
+                    background-color: red;
+                    color:black;
+                    text-align: center;
+
+                } 
+                .parallax2{
+                     width: 100%;
+                     height: 350px;
+                     background-image: url(pimg2.jpg);
+                     background-size: 100% 100%;
+                     background-attachment: fixed;
+
+                 }
+                 .parallax2 h1{
+                    position: relative;
+                    left: 700px;
+                    top: 100px;
+                    width: 110px;
+                    padding: 3px;
+                    background-color: red;
+                    color:black;
+                    text-align: center;
+                 } 
+                 .para{
+                     
+                     padding: 10px;
+                     text-align: center;
+                     background-color:black;
+                     color:white;
+                     font-size: 20px;
+
+                     
+
+                 }
+                 .parallax3{
+                     width: 100%;
+                     height: 350px;
+                     background-image: url(pimg3.jpg);
+                     background-size: 100% 100%;
+                     background-attachment: fixed;
+
+                 }  
+                 .parallax3 h1{
+                    position: relative;
+                    left: 700px;
+                    top: 100px;
+                    width: 110px;
+                    padding: 3px;
+                    background-color: red;
+                    color:black;
+                    text-align: center;
+                 } 
+                 .footer-dark{
+                     background-color:gray;
+                     padding-top: 100px;
+                     text-color: white;
+                     
+                    padding:50px 0;
+                     color:#f0f9ff;
+                    background-color:#282d32;
+
+                 }
+                 
+                 }
+                 .aa{
+                    position:relative;
+                     left: 300px;
+                     top: 5px;
+                     width: 100px;
+                     padding-top: 5px;
+                     margin-bottom: 10px;
+
+                 }
+                 td,th,table{
+                     border: 0px;
+                     margin: 15px;
+                     padding: 10px;
+
+                 }
+                 td a{
+                     color: chocolate;
+                 }
+
+    
+    </style>
+</head>
+<body>
+    <div class="parallax1">
+        <h1>Future</h1>
+    </div>
+    <div>
+        <p class="para">
+            The future is the time after the present. Its arrival is considered inevitable due to the existence of time and the laws of physics. Due to the apparent nature of reality and the unavoidability of the future, everything that currently exists and will exist can be categorized as either permanent, meaning that it will exist forever, or temporary, meaning that it will end.[1] In the Occidental view, which uses a linear conception of time, the future is the portion of the projected timeline that is anticipated to occur.[2] In special relativity, the future is considered absolute future, or the future light cone.[3]
+
+In the philosophy of time, presentism is the belief that only the present exists and the future and the past are unreal. Religions consider the future when they address issues such as karma, life after death, and eschatologies that study what the end of time and the end of the world will be. Religious figures such as prophets and diviners have claimed to see into the future. Future studies, or futurology, is the science, art, and practice of postulating possible futures.
+             </p>
+    </div>
+    <div class="parallax2">
+        <h1>Past</h1>
+    </div>
+    <div class="para">
+        <p>
+            The past is the set of all events that occurred before a given point in time.[1] The past is contrasted with and defined by the present and the future. The concept of the past is derived from the linear fashion in which human observers experience time, and is accessed through memory and recollection. In addition, human beings have recorded the past since the advent of written language.[2] The first known use of the word "past" was in the fourteenth century; it developed as the past participle of the middle English verb passen meaning "to pass."[3]The word "past" can also be used to describe the offices of those who have previously served in an organization, group, or event such as, "past president," or, "past champions."[6] "Past" can also refer to something or someone being at or in a position that is further than a particular point.[7] For instance, in the sentence, "I live on Fielding Road, just past the train station," the word "past" is used to describe a location (the speaker's residence) beyond a certain point (the train station). Alternatively, the sentence, "He ran past us at full speed," utilizes the concept of the past to describe the position of someone ("He") that is further than the speaker.
+        </p>
+    </div>
+    <div class="parallax3">
+        <h1>Present</h1>
+    </div>
+    <div class="para">
+        <p>
+            The present (or here and now) is the time that is associated with the events perceived directly and in the first time,[1] not as a recollection (perceived more than once) or a speculation (predicted, hypothesis, uncertain). It is a period of time between the past and the future, and can vary in meaning from being an instant to a day or longer.
+
+It is sometimes represented as a hyperplane in space-time,[2] typically called "now", although modern physics demonstrates that such a hyperplane cannot be defined uniquely for observers in relative motion. The present may also be viewed as a duration (see specious present).[3][4]The relation of experience to time has not been profoundly studied. Its objects are given as being of the present, but the part of time referred to by the datum is a very different thing from the conterminous of the past and future which philosophy denotes by the name Present. The present to which the datum refers is really a part of the past—a recent past—delusively given as being a time that intervenes between the past and the future. Let it be named the specious present, and let the past, that is given as being the past, be known as the obvious past. All the notes of a bar of a song seem to the listener to be contained in the present.
+        </p>
+    </div>
+    <div class="footer-dark">
+    <footer >
+        <div class="aa">
+            <table>
+                <tr>
+            <th>Services</th>
+            <th>About</th>
+            </tr>
+            
+            <tr>
+                <td><a href="#">Web design</a></td>
+               
+                <td><a href="#">Company</a></td>
+            </tr>
+            <tr>
+                <td><a href="#">Hosting</a></td>
+                <td><a href="#">Team</a></td>
+            </tr>
+            
+            
+            <tr>
+                <td><a href="#">Development</a></li>
+            </td>        
+                
+                <td><a href="#">Careers</a></li>
+            </tr>
+            </table>
+        </div>
+        <div class="col-md-6 item text">
+            <h3>Company Name</h3>
+            <p>Saurabh.PVT.LTD</p>
+        </div>
+        <div class="col item social"><a href="#">contact us<i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+        </div>
+                   <p class="copyright">Company Name © 2018</p>
+        </div>
+    
+    
+        </footer>
+    </div>
+    
+
+    </body>
+</html>
